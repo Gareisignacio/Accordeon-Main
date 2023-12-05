@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@900&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   background: #F9EEFF;
+   position: relative;
+   width: 100vw;
+   height: 100vh;
+
+}
+header{
+   width: 100vw;
+   min-height: 35vh;
+   background-image: url("assets/images/background-pattern-desktop.svg");
+   background-size:cover;
+}
+.container{
+   position: absolute;
+   background: white;
+   top: 80px;
+   left: 400px;
+   right: 400px;
+   font-family: 'Heebo', sans-serif;
+   border-radius: 20px;
+}
+.container h1{
+   display: flex;
+   font-size: 2.2em;
+   color: #37163C;
+}
+.question{
+   margin: 15px;
+}
+.head-quest{
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   
+}
+.question h2{
+   font-size: 1.5rem;
+   color: #37163C;
+}
+.question button{
+   border: none;
+   background: none;
+   cursor: pointer;
+}
+.question img{
+   display: flex;
+   justify-content: flex-end;
+}
+.question p{
+   font-size: 1rem;
+   color: #9D939E;
+   margin-right: 1.5rem;
+   text-align: justify;
+}
+.hide{
+   display: none;
+}
+
